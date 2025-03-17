@@ -1,4 +1,4 @@
-import Form from "../Form/Form.jsx";
+import Form from "../../components/Form/Form.jsx";
 import { AuthService } from "../../services/auth.js";
 
 const Register = () => {

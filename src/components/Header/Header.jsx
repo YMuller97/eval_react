@@ -4,7 +4,7 @@ import classes  from './Header.module.css';
 
 const Header = () => {
 
-    const service = new AuthService;
+    const service = new AuthService();
 
     return (
         <nav>

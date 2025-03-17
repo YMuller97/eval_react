@@ -2,7 +2,6 @@ import FormInput from "../FormInput/FormInput.jsx";
 import classes from "./Form.module.css";
 
 const Form = (props) => {
-
     const InputList = props.inputs.map((input) => 
         <FormInput label={input.label}
                     name={input.name} 

@@ -1,4 +1,4 @@
-import Form from "../Form/Form.jsx";
+import Form from "../../components/Form/Form.jsx";
 import { MovieService } from "../../services/movie.js";
 
 const AddMovie = () => {

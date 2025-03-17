@@ -1,8 +1,9 @@
 import './App.css'
-import Register from './components/Register/Register.jsx';
-import Login from './components/Login/Login.jsx';
-import AddMovie from './components/AddMovie/AddMovie.jsx';
+import Register from './pages/Register/Register.jsx';
+import Login from './pages/Login/Login.jsx';
+import AddMovie from './pages/AddMovie/AddMovie.jsx';
 import Header from './components/Header/Header.jsx';
+import Movies from './pages/Movies/Movies.jsx';
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path='/register' element={<Register/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/add-movie' element={<AddMovie/>}/>
+            <Route path='/movies' element={<Movies/>}/>
           </Routes>
           
       </div>

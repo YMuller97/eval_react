@@ -27,8 +27,10 @@ export class MovieService {
         return new Promise((resolve, reject) => {
             const movies = this._getMovies();
             const movie = movies.find(movie => movie.id === id);
+            
             if (movie) {
                 resolve(movie);
+                console.log("movie service : ", movie);
             } else {
                 reject(new Error('Movie not found'));
             }
